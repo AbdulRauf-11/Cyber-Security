@@ -8,7 +8,7 @@ def sendEmail(message):
     port = 587 
     sender_email = "senderemail@gmail.com"
     password = "ABDCD.."
-    receiver_email = ""
+    receiver_email = "receiveremail@gmail.com"
 
     context = ssl.create_default_context()
 
